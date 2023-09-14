@@ -1,0 +1,20 @@
+# Eclipse
+.settings/
+
+# STM32
+.cproject
+.mxproject
+.project
+MAX32664_STMHAL_Driver.ioc
+MAX32664_STMHAL_Driver.launch
+*.ld
+Drivers/
+Debug/
+Startup/
+Core/Inc/stm32f4xx_hal_conf.h
+Core/Inc/stm32f4xx_it.h
+Core/Src/stm32f4xx_hal_msp.c
+Core/Src/stm32f4xx_it.c
+Core/Src/syscalls.c
+Core/Src/sysmem.c
+Core/Src/system_stm32f4xx.c
